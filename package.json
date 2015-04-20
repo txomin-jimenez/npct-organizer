@@ -1,0 +1,47 @@
+{
+  "name": "syno-download-organizer",
+  "version": "0.0.0",
+  "description": "Download files organizer intended to run on Synology NAS.",
+  "author": {
+    "name": "Txomin Jiménez Díaz",
+    "email": "txomin.jimenez@gmail.com"
+  },
+  "repository": "txomin-jimenez/syno-download-organizer",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "syno-download-organizer",
+    "synology",
+    "downloads"
+  ],
+  "dependencies": {
+    "meow": "^3.1.0",
+    "nconf": "~0.7.1",
+    "coffee-script": "~1.9.1",
+    "q": "~1.2.0",
+    "lodash": "~3.6.0",
+    "named-regexp": "~0.1.1"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0",
+    "grunt-contrib-coffee": "~0.13.0",
+    "coffee-script": "~1.9.1",
+    "should": "~5.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "syno-download-organizer": "cli.js"
+  }
+}
