@@ -1,7 +1,7 @@
 {
   "name": "npct-organizer",
-  "version": "0.0.0",
-  "description": "Download files organizer intended to run on Synology NAS.",
+  "version": "0.1.0",
+  "description": "NewPCT download files organizer intended to run on Synology NAS.",
   "author": {
     "name": "Txomin Jiménez Díaz",
     "email": "txomin.jimenez@gmail.com"
