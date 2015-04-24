@@ -9,10 +9,10 @@ var synoDownloadOrganizer = require('./app/');
 var cli = meow({
   help: [
     'Usage',
-    '  syno-download-organizer <input>',
+    '  nptct-organizer <input>',
     '',
     'Example',
-    '  syno-download-organizer Unicorn'
+    '  npct-organizer Unicorn'
   ].join('\n')
 });
 
