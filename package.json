@@ -1,18 +1,21 @@
 {
-  "name": "syno-download-organizer",
-  "version": "0.0.0",
-  "description": "Download files organizer intended to run on Synology NAS.",
+  "name": "npct-organizer",
+  "version": "0.1.0",
+  "description": "NewPCT download files organizer intended to run on Synology NAS.",
   "author": {
     "name": "Txomin Jiménez Díaz",
     "email": "txomin.jimenez@gmail.com"
   },
-  "repository": "txomin-jimenez/syno-download-organizer",
+  "repository": "git@github.com:txomin-jimenez/npct-organizer.git",
   "license": "MIT",
   "files": [
     "index.js",
     "cli.js"
   ],
   "keywords": [
+    "DSM",
+    "Synology",
+    "npct-organizer",
     "syno-download-organizer",
     "synology",
     "downloads"
@@ -35,13 +38,12 @@
     "load-grunt-tasks": "^3.1.0",
     "time-grunt": "^1.1.0",
     "grunt-contrib-coffee": "~0.13.0",
-    "coffee-script": "~1.9.1",
     "should": "~5.2.0"
   },
   "scripts": {
     "test": "grunt"
   },
   "bin": {
-    "syno-download-organizer": "cli.js"
+    "npct-organizer": "cli.js"
   }
 }
